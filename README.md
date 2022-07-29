@@ -20,3 +20,9 @@ The goal of this project is to recognize the **context of an image** and annotat
 The code is ready to run for every version of python greater than 3.6.
 As you will see also in the code, some facilities are not available in python versions lower than 3.9.
 
+## How this model works
+Example
+<!--[plane.jpeg](photos/plane.jpeg)
+caption generated for this image is,
+```
+a plane is flying in blue sky .-->
