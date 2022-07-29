@@ -20,6 +20,14 @@ The goal of this project is to recognize the **context of an image** and annotat
 The code is ready to run for every version of python greater than 3.6.
 As you will see also in the code, some facilities are not available in python versions lower than 3.9.
 
+## Prerequisites
+- NLP
+- CNN
+- RNN
+- Language model
+- Word embeddings
+- Transfer Learning
+
 ## How this model works
 Example <br>
 
@@ -50,6 +58,7 @@ Test Set — 1000 images <br>
 - Dense
 - Greedy and Beam Search
 <br>
+<p align="center"><img src="photos/model4.1.jpeg" align="center" width=500></p>
 
 We have used an **Encoder-Decoder** model. Here our encoder model will combine both the encoded form of
 the image and the encoded form of the text caption and feed to the decoder.
@@ -68,6 +77,10 @@ We have used the **inceptionV3 model.**
 To encode our text sequence we will map every word to a **200-dimensional vector.** For this will use a pre-trained Glove model.
 To generate the caption we will be using two popular methods which are **Greedy Search and Beam Search.**
 <br>
+
+**Example:**
+<p align="center"><img src="photos/model4.2.jpeg" align="center" width=500></p>
+
 <br>
 
 **Second model5.ipynb uses:** <br>
@@ -80,6 +93,7 @@ To generate the caption we will be using two popular methods which are **Greedy 
 - Dense
 - LSTM
 - collections
+<p align="center"><img src="photos/model5.1.jpeg" align="center" width=500></p>
 
 To encode our image features we will make use of transfer learning
 <br> 
@@ -89,4 +103,7 @@ We have used the **ResNet50 model**
 
 To encode our text sequence we will map every word to a **50-dimensional vector.** For this will use a pre-trained Glove model.
 <br>
+
+**Example:**
+<p align="center"><img src="photos/model5.2.jpeg" align="center" width=500></p>
 
