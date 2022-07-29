@@ -58,6 +58,7 @@ Test Set — 1000 images <br>
 - Dense
 - Greedy and Beam Search
 <br>
+
 <p align="center"><img src="photos/model4.1.jpeg" align="center" width=500></p>
 
 We have used an **Encoder-Decoder** model. Here our encoder model will combine both the encoded form of
@@ -65,17 +66,17 @@ the image and the encoded form of the text caption and feed to the decoder.
 <br>
 
 Our model will treat **CNN as the ‘image model’** and the **RNN/LSTM as the ‘language model’** to encode the text sequences of
-varying length. The vectors resulting from both the encodings are then merged and processed by a Dense layer to make a final
-prediction.
+varying length. The vectors resulting from both the encodings are then merged and processed by a Dense layer to make a final prediction.
 <br>
 
-To encode our image features we will make use of transfer learning.
+To encode our image features, we will make use of transfer learning.
 <br>
+
 We have used the **inceptionV3 model.**
 <br>
 
 To encode our text sequence we will map every word to a **200-dimensional vector.** For this will use a pre-trained Glove model.
-To generate the caption we will be using two popular methods which are **Greedy Search and Beam Search.**
+To generate the caption, we will be using two popular methods which are **Greedy Search and Beam Search.**
 <br>
 
 **Example:**
@@ -95,13 +96,13 @@ To generate the caption we will be using two popular methods which are **Greedy 
 - collections
 <p align="center"><img src="photos/model5.1.jpeg" align="center" width=500></p>
 
-To encode our image features we will make use of transfer learning
+To encode our image features, we will make use of transfer learning
 <br> 
 
 We have used the **ResNet50 model**
 <br>
 
-To encode our text sequence we will map every word to a **50-dimensional vector.** For this will use a pre-trained Glove model.
+To encode our text sequence, we will map every word to a **50-dimensional vector.** For this will use a pre-trained Glove model.
 <br>
 
 **Example:**
