@@ -21,8 +21,9 @@ The code is ready to run for every version of python greater than 3.6.
 As you will see also in the code, some facilities are not available in python versions lower than 3.9.
 
 ## How this model works
-Example
-<!--[plane.jpeg](photos/plane.jpeg)
+Example <br>
+
+![plane](https://user-images.githubusercontent.com/90089455/181709625-fed1e981-19ec-44f6-96a9-8061abeebda8.jpeg)
 caption generated for this image is,
 ```
-a plane is flying in blue sky .-->
+a plane is flying in blue sky.
