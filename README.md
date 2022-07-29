@@ -23,7 +23,9 @@ As you will see also in the code, some facilities are not available in python ve
 ## How this model works
 Example <br>
 
-![plane](https://user-images.githubusercontent.com/90089455/181709625-fed1e981-19ec-44f6-96a9-8061abeebda8.jpeg)
+<img src="photos/plane.jpeg" width=500>
+
 caption generated for this image is,
 ```
-a plane is flying in blue sky.
+a plane is flying in blue sky .
+``` 
