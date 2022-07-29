@@ -49,7 +49,7 @@ Dev Set — 1000 images <br>
 Test Set — 1000 images <br>
 
 ## We have used 2 models: <br>
-**First model4.ipynb uses:**
+<ins>**First model4.ipynb uses:**
 - InceptionV3
 - Keras
 - matplotlib
@@ -83,7 +83,7 @@ To generate the caption we will be using two popular methods which are **Greedy 
 
 <br>
 
-**Second model5.ipynb uses:** <br>
+<ins>**Second model5.ipynb uses:** <br>
 - ResNet50
 - Keras
 - Numpy
