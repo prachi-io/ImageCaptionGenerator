@@ -35,7 +35,7 @@ As you will see also in the code, some facilities are not available in python ve
 
 caption generated for this image is:
 ```
-a plane is flying in blue sky .
+a plane is flying in blue sky.
 ``` 
 ## Project Overview
 - Our project converts a computer program that takes an image as input and produces a relevant caption as output
