@@ -29,11 +29,11 @@ As you will see also in the code, some facilities are not available in python ve
 - Transfer Learning
 
 ## How this model works
-Example <br>
+**Example:** <br>
 
 <img src="photos/plane.jpeg" width=500>
 
-caption generated for this image is,
+caption generated for this image is:
 ```
 a plane is flying in blue sky .
 ``` 
