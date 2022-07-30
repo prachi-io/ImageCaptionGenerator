@@ -1,4 +1,6 @@
 # ImageCaptionGenerator
+**Team: Chhavi Jindal, Prachi Agarwal, Shreya Gupta** <br>
+
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 The goal of this project is to recognize the **context of an image** and annotating it with relevant captions using **deep learning, and computer vision.**
